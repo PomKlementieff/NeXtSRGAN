@@ -7,7 +7,6 @@
 Original Paper: NeXtSRGAN: Enhancing Super-Resolution GAN with ConvNeXt Discriminator for Superior Realism
 
 ## Contents
-:bookmark_tabs:
 
 * [Installation](#Installation)
 * [Data Preparing](#Data-Preparing)
@@ -18,7 +17,6 @@ Original Paper: NeXtSRGAN: Enhancing Super-Resolution GAN with ConvNeXt Discrimi
 ***
 
 ## Installation
-:pizza:
 
 Create a new python virtual environment by [Anaconda](https://www.anaconda.com/) or just use pip in your python environment and then clone this repository as following.
 
@@ -43,7 +41,6 @@ pip install -r requirements.txt
 ****
 
 ## Data Preparing
-:beer:
 
 This implementation uses DIV2K and KID-F datasets for training, and various benchmark datasets for testing.
 
@@ -66,7 +63,6 @@ Download the common image SR datasets (Set5, Set14, BSD100, Urban100, Manga109, 
 ****
 
 ## Training and Testing
-:lollipop:
 
 ### Config File
 Modify the config files in `./configs/*.yaml` for training and testing settings.
@@ -114,7 +110,6 @@ python net_interp.py --cfg_path1="./configs/psnr.yaml" --cfg_path2="./configs/ne
 ****
 
 ## Benchmark and Visualization
-:bar_chart:
 
 Here are the evaluation and visualization results of NextSRGAN on various datasets. Each image compares the original high-resolution (HR) image, ESRGAN results, and the proposed NextSRGAN results.
 
