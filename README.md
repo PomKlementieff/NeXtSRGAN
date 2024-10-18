@@ -114,29 +114,28 @@ python net_interp.py --cfg_path1="./configs/psnr.yaml" --cfg_path2="./configs/ne
 Here are the evaluation and visualization results of NextSRGAN on various datasets. Each image compares the original high-resolution (HR) image, ESRGAN results, and the proposed NextSRGAN results.
 
 ### KID-F Dataset Results
-![KID-F Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/KID-F_Visual_Results.jpg)
+![KID-F Visual Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/KID-F_Visual_Results.jpg)
 
 ### Urban100 Dataset Results
-![Urban100 Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Urban100_Visual_Results.jpg)
+![Urban100 Visual Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Urban100_Visual_Results.jpg)
 
 ### Set14 Dataset Results
-![Set14 Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Set14_Visual_Results.jpg)
+![Set14 Visual Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Set14_Visual_Results.jpg)
 
 ### Set5 Dataset Results
-![Set5 Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Set5_Visual_Results.jpg)
+![Set5 Visual Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Set5_Visual_Results.jpg)
 
 ### Manga109 Dataset Results
-![Manga109 Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Manga109_Visual_Results.jpg)
+![Manga109 Visual Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Manga109_Visual_Results.jpg)
 
 ### Historical Dataset Results
-![Historical Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Historical_Visual_Results.jpg)
+![Historical Visual Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Historical_Visual_Results.jpg)
 
 NextSRGAN demonstrates consistently superior performance across various datasets, particularly excelling in facial images and complex textures. For a more comprehensive analysis and detailed results, please refer to our original paper.
 
 ****
 
 ## References
-:hamburger:
 
 1. Wang, X., Yu, K., Wu, S., Gu, J., Liu, Y., Dong, C., et al., "Esrgan: Enhanced super-resolution generative adversarial networks," In Proceedings of the European conference on computer vision workshops, 2018.
 2. Liu, Z., Mao, H., Wu, C. Y., Feichtenhofer, C., Darrell, T., and Xie, S., "A convnet for the 2020s," In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pp. 11976-11986, 2022.
