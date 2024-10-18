@@ -119,19 +119,19 @@ python net_interp.py --cfg_path1="./configs/psnr.yaml" --cfg_path2="./configs/ne
 Here are the evaluation and visualization results of NextSRGAN on various datasets. Each image compares the original high-resolution (HR) image, ESRGAN results, and the proposed NextSRGAN results.
 
 ### KID-F Dataset Results
-![KID-F Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/KID-F_Visual_Results.jpg.png)
+![KID-F Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/KID-F_Visual_Results.jpg)
 
 ### Urban100 Dataset Results
-![Urban100 Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Urban100_Visual_Results.png)
+![Urban100 Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Urban100_Visual_Results.jpg)
 
 ### Set14 Dataset Results
-![Set14 Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Set14_Visual_Results.png)
+![Set14 Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Set14_Visual_Results.jpg)
 
 ### Set5 Dataset Results
-![Set5 Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Set5_Visual_Results.png)
+![Set5 Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Set5_Visual_Results.jpg)
 
 ### Manga109 Dataset Results
-![Manga109 Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Manga109_Visual_Results.png)
+![Manga109 Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Manga109_Visual_Results.jpg)
 
 ### Historical Dataset Results
 ![Historical Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Historical_Visual_Results.jpg)
