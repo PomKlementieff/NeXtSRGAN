@@ -12,6 +12,7 @@ Original Paper: NeXtSRGAN: Enhancing Super-Resolution GAN with ConvNeXt Discrimi
 * [Installation](#Installation)
 * [Data Preparing](#Data-Preparing)
 * [Training and Testing](#Training-and-Testing)
+* [Benchmark and Visualization](#Benchmark-and-Visualization)
 * [References](#References)
 
 ***
@@ -109,6 +110,33 @@ Produce interpolation results between PSNR-oriented and GAN-based methods:
 ```bash
 python net_interp.py --cfg_path1="./configs/psnr.yaml" --cfg_path2="./configs/nextsrgan.yaml" --img_path="./data/your_image.png" --save_image=True --save_ckpt=True
 ```
+
+****
+
+## Benchmark and Visualization
+:bar_chart:
+
+Here are the evaluation and visualization results of NextSRGAN on various datasets. Each image compares the original high-resolution (HR) image, ESRGAN results, and the proposed NextSRGAN results.
+
+### KID-F Dataset Results
+![KID-F Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/KID-F_Visual_Results.jpg.png)
+
+### Urban100 Dataset Results
+![Urban100 Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Urban100_Visual_Results.png)
+
+### Set14 Dataset Results
+![Set14 Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Set14_Visual_Results.png)
+
+### Set5 Dataset Results
+![Set5 Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Set5_Visual_Results.png)
+
+### Manga109 Dataset Results
+![Manga109 Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Manga109_Visual_Results.png)
+
+### Historical Dataset Results
+![Historical Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Historical_Visual_Results.jpg)
+
+NextSRGAN demonstrates consistently superior performance across various datasets, particularly excelling in facial images and complex textures. For a more comprehensive analysis and detailed results, please refer to our original paper.
 
 ****
 
