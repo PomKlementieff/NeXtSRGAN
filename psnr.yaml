@@ -1,0 +1,48 @@
+# General settings
+general:
+    batch_size: 16
+    input_size: 32
+    gt_size: 128
+    ch_size: 3
+    scale: 4
+    sub_name: 'psnr_pretrain'
+    pretrain_name: null
+  
+  # Network settings
+  network:
+    generator:
+      nf: 64
+      nb: 23
+  
+  # Dataset settings
+  dataset:
+    train:
+      path: './data/KID_F_800_sub_bin.tfrecord'
+      num_samples: 5591
+      using_bin: true
+      using_flip: true
+      using_rot: true
+    test:
+      set5_path: './data/KID_F_TEST_DEGRAD'
+      set14_path: './data/KID_F_TEST'
+  
+  # Training settings
+  training:
+    niter: 200000
+    learning_rate:
+      initial: 2e-4
+      steps: [40000, 80000, 120000, 160000]
+      rate: 0.5
+    adam_beta:
+      beta1: 0.9
+      beta2: 0.99
+  
+  # Loss settings
+  loss:
+    pixel:
+      weight: 1.0
+      criterion: 'l1'
+  
+  # Saving settings
+  save:
+    steps: 5000
