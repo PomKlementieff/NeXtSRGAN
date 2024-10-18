@@ -23,14 +23,14 @@ Create a new python virtual environment by [Anaconda](https://www.anaconda.com/)
 
 ### Clone this repo
 ```bash
-git clone https://github.com/your-github-username/nextsrgan-tf2.git
-cd nextsrgan-tf2
+git clone https://github.com/PomKlementieff/NeXtSRGAN.git
+cd NeXtSRGAN
 ```
 
 ### Conda
 ```bash
 conda env create -f environment.yml
-conda activate nextsrgan-tf2
+conda activate NeXtSRGAN
 ```
 
 ### Pip
