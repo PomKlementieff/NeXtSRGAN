@@ -1,8 +1,8 @@
-# [NextSRGAN-tf2](https://github.com/your-github-username/nextsrgan-tf2)
+# [NextSRGAN-tf2](https://github.com/PomKlementieff/NeXtSRGAN)
 
-:fire: NextSRGAN implemented in TensorFlow 2.0+. This implementation enhances ESRGAN with a ConvNeXt-based discriminator for superior realism. :fire:
+:fire: NeXtSRGAN implemented in TensorFlow 2.0+. This implementation enhances ESRGAN with a ConvNeXt-based discriminator for superior realism. :fire:
 
-> NextSRGAN introduces a novel discriminator design inspired by the ConvNeXt architecture to improve upon the structure of ESRGAN. This new approach leads to more effective enhancement of image quality, particularly in facial image super-resolution.
+> NeXtSRGAN introduces a novel discriminator design inspired by the ConvNeXt architecture to improve upon the structure of ESRGAN. This new approach leads to more effective enhancement of image quality, particularly in facial image super-resolution.
 
 Original Paper: NeXtSRGAN: Enhancing Super-Resolution GAN with ConvNeXt Discriminator for Superior Realism
 
@@ -77,7 +77,7 @@ Modify the config files in `./configs/*.yaml` for training and testing settings.
 python train_psnr.py --cfg_path="./configs/psnr.yaml" --gpu=0
 ```
 
-#### NextSRGAN
+#### NeXtSRGAN
 ```bash
 python train_nextsrgan.py --cfg_path="./configs/nextsrgan.yaml" --gpu=0
 ```
@@ -87,7 +87,7 @@ python train_nextsrgan.py --cfg_path="./configs/nextsrgan.yaml" --gpu=0
 Evaluate the models on the testing dataset:
 
 ```bash
-# Test NextSRGAN model
+# Test NeXtSRGAN model
 python test.py --cfg_path="./configs/nextsrgan.yaml"
 # or
 # PSNR pretrain model
