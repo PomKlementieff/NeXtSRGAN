@@ -1,15 +1,10 @@
 # [NextSRGAN-tf2](https://github.com/your-github-username/nextsrgan-tf2)
 
-[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/your-github-username/nextsrgan-tf2.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/your-github-username/nextsrgan-tf2/context:python)
-![Star](https://img.shields.io/github/stars/your-github-username/nextsrgan-tf2)
-![Fork](https://img.shields.io/github/forks/your-github-username/nextsrgan-tf2)
-![License](https://img.shields.io/github/license/your-github-username/nextsrgan-tf2)
-
 :fire: NextSRGAN implemented in TensorFlow 2.0+. This implementation enhances ESRGAN with a ConvNeXt-based discriminator for superior realism. :fire:
 
 > NextSRGAN introduces a novel discriminator design inspired by the ConvNeXt architecture to improve upon the structure of ESRGAN. This new approach leads to more effective enhancement of image quality, particularly in facial image super-resolution.
 
-Original Paper:
+Original Paper: NeXtSRGAN: Enhancing Super-Resolution GAN with ConvNeXt Discriminator for Superior Realism
 
 ## Contents
 :bookmark_tabs:
