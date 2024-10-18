@@ -113,22 +113,22 @@ python net_interp.py --cfg_path1="./configs/psnr.yaml" --cfg_path2="./configs/ne
 
 Here are the evaluation and visualization results of NextSRGAN on various datasets. Each image compares the original high-resolution (HR) image, ESRGAN results, and the proposed NextSRGAN results.
 
-### KID-F Dataset Results
+### KID-F Dataset Visual Results
 ![KID-F Visual Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/KID-F_Visual_Results.jpg)
 
-### Urban100 Dataset Results
+### Urban100 Dataset Visual Results
 ![Urban100 Visual Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Urban100_Visual_Results.jpg)
 
-### Set14 Dataset Results
+### Set14 Dataset Visual Results
 ![Set14 Visual Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Set14_Visual_Results.jpg)
 
-### Set5 Dataset Results
+### Set5 Dataset Visual Results
 ![Set5 Visual Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Set5_Visual_Results.jpg)
 
-### Manga109 Dataset Results
+### Manga109 Dataset Visual Results
 ![Manga109 Visual Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Manga109_Visual_Results.jpg)
 
-### Historical Dataset Results
+### Historical Dataset Visual Results
 ![Historical Visual Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/Historical_Visual_Results.jpg)
 
 NextSRGAN demonstrates consistently superior performance across various datasets, particularly excelling in facial images and complex textures. For a more comprehensive analysis and detailed results, please refer to our original paper.
