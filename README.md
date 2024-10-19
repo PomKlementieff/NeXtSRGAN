@@ -111,7 +111,7 @@ python net_interp.py --cfg_path1="./configs/psnr.yaml" --cfg_path2="./configs/ne
 
 ## Benchmark and Visualization
 
-Here are the evaluation and visualization results of NextSRGAN on various datasets. Each image compares the original high-resolution (HR) image, ESRGAN results, and the proposed NextSRGAN results.
+Here are the evaluation and visualization results of NextSRGAN on various datasets. Each image compares the original high-resolution (HR) image, ESRGAN results, and the proposed NextSRGAN results. The PSNR and SSIM values are included to quantitatively assess the image quality. Higher PSNR indicates better reconstruction accuracy, while higher SSIM reflects better preservation of structural information.
 
 ### KID-F Dataset Visual Results
 ![KID-F Visual Results](https://github.com/PomKlementieff/NeXtSRGAN/raw/main/results/KID-F_Visual_Results.jpg)
