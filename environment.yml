@@ -1,0 +1,13 @@
+name: nextsrgan
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - tensorflow
+  - tensorflow-addons
+  - absl-py
+  - opencv
+  - numpy
+  - pandas
+  - pyyaml

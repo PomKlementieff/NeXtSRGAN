@@ -1,0 +1,7 @@
+tensorflow
+tensorflow-addons
+absl-py
+opencv-python
+numpy
+pandas
+pyyaml
